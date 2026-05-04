@@ -1,0 +1,32 @@
+{
+  "name": "dopamine-design-system",
+  "version": "1.0.0",
+  "description": "Memphis-poster + 多巴胺配色的迷你 design system。純 CSS、無依賴、手機優先。",
+  "main": "dopamine.css",
+  "style": "dopamine.css",
+  "files": [
+    "dopamine.css",
+    "examples.html",
+    "starter.html",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "preview": "python3 -m http.server 8765"
+  },
+  "keywords": [
+    "design-system",
+    "css",
+    "dopamine",
+    "memphis",
+    "mobile-first",
+    "design-tokens"
+  ],
+  "author": "Febrey Huang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/febreyfebrey/dopamine-design-system.git"
+  },
+  "homepage": "https://github.com/febreyfebrey/dopamine-design-system#readme"
+}

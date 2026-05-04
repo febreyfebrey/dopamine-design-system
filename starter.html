@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>新專案</title>
+<link rel="stylesheet" href="dopamine.css" />
+<style>
+  /* page-specific layout, replace with your own */
+  .page { max-width: 720px; margin: 0 auto; padding: var(--s-4); position: relative; z-index: 1; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: var(--s-3) 0; }
+  .brand { display: flex; align-items: center; gap: var(--s-2); font-weight: 600; font-size: var(--fs-md); }
+  .brand .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+</style>
+</head>
+<body>
+
+<!-- 可選：Memphis confetti 裝飾。不要的話刪掉 -->
+<div class="confetti" aria-hidden="true">
+  <span class="confetti-piece p-tri" style="--c:var(--dopa-red);    --r:18deg;  --sz:1.6; top:90px;  left:4%;"></span>
+  <span class="confetti-piece p-bar" style="--c:var(--dopa-yellow); --r:-25deg; --sz:1.3; top:118px; right:3%;"></span>
+  <span class="confetti-piece p-dot" style="--c:var(--dopa-green);            --sz:1.0; top:30%;  right:18%;"></span>
+  <span class="confetti-piece p-sq"  style="--c:var(--dopa-blue);   --r:18deg; --sz:1.4; top:50%;  left:5%;"></span>
+  <span class="confetti-piece p-tri" style="--c:var(--dopa-pink);   --r:-30deg; --sz:0.8; top:60%;  right:7%;"></span>
+  <span class="confetti-piece p-dot" style="--c:var(--dopa-coral);            --sz:1.2; bottom:25%; right:8%;"></span>
+  <span class="confetti-piece p-bar" style="--c:var(--dopa-mint);   --r:35deg; --sz:0.9; bottom:10%; left:8%;"></span>
+</div>
+
+<div class="page">
+  <header>
+    <div class="brand">
+      <span class="dot"></span>
+      <span>新專案</span>
+    </div>
+    <button class="icon-btn">⋯</button>
+  </header>
+
+  <!-- 你的內容從這裡開始 -->
+  <div class="card" style="margin-top: var(--s-4);">
+    <h2 style="margin:0 0 var(--s-2); font-size: var(--fs-lg);">歡迎使用</h2>
+    <p class="hint" style="margin:0 0 var(--s-3);">用 Dopamine Design System 開始建立你的專案。打開 <code style="background:var(--surface-2);padding:2px 6px;border-radius:4px;font-size:var(--fs-sm);">examples.html</code> 看完整元件型錄。</p>
+    <div style="display:flex; gap: var(--s-2);">
+      <button class="btn primary">主要動作</button>
+      <button class="btn ghost">次要</button>
+    </div>
+  </div>
+
+</div>
+
+<!-- 浮動主按鈕 -->
+<button class="fab" aria-label="新增">＋</button>
+
+</body>
+</html>
